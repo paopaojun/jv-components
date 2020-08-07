@@ -5,8 +5,11 @@ import App from './App.vue'
 
 Vue.use(ElementUI);
 
-import testCommon from './components';
-Vue.component('testCommon', testCommon);
+import components from './components';
+
+for(let key in components){
+  Vue.component(key,components[key]);
+}
 
 Vue.config.productionTip = false
 

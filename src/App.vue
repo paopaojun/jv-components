@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <test/>
+    <jvButton/>
   </div>
 </template>
 
 <script>
-import test from './components/test.vue'
+// import test from './components/test.vue'
 
-export default {
-  name: 'app',
-  components: {
-    test
-  }
-}
+// export default {
+//   name: 'app',
+//   components: {
+//     test
+//   }
+// }
 </script>
